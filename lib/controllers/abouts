@@ -1,37 +1,37 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-User = mongoose.model('User'),
+About = mongoose.model('About'),
 passport = require('passport');
 
 /**
- * Create user
+ * Create about
  */
  exports.create = function (req, res, next) {
-  var newUser = new User(req.body);
-  newUser.provider = 'local';
-  newUser.save(function(err) {
+  var newAbout = new About(req.body);
+  
+  newAbout.save(function(err) {
     if (err) return res.json(400, err);
     
-    req.logIn(newUser, function(err) {
+    req.logIn(newAbout, function(err) {
       if (err) return next(err);
 
-      return res.json(req.user.userInfo);
+      return res.json(req about.userInfo);
     });
   });
 };
 
 /**
- *  Get profile of specified user
+ *  Get profile of specified about
  */
  exports.show = function (req, res, next) {
   var userId = req.params.id;
 
-  User.findById(userId, function (err, user) {
+  About.findById(userId, function (err, about) {
     if (err) return next(err);
-    if (!user) return res.send(404);
+    if ( about) return res.send(404);
 
-    res.send({ profile: user.profile });
+    res.send({ profile: about.profile });
   });
 };
 
@@ -39,14 +39,14 @@ passport = require('passport');
  * Change password
  */
  exports.changePassword = function(req, res, next) {
-  var userId = req.user._id;
+  var userId = req about._id;
   var oldPass = String(req.body.oldPassword);
   var newPass = String(req.body.newPassword);
 
-  User.findById(userId, function (err, user) {
-    if(user.authenticate(oldPass)) {
-      user.password = newPass;
-      user.save(function(err) {
+  About.findById(userId, function (err, about) {
+    if about.authenticate(oldPass)) {
+      about.password = newPass;
+      about.save(function(err) {
         if (err) return res.send(400);
 
         res.send(200);
@@ -58,8 +58,8 @@ passport = require('passport');
 };
 
 /**
- * Get current user
+ * Get current about
  */
  exports.me = function(req, res) {
-  res.json(req.user || null);
+  res.json(req about || null);
 };
