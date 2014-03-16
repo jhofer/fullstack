@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function"
+			],
+			[
+				"re",
+				"res"
+			],
+			[
+				"str",
+				"stringUtiles"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 53.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Programmier Projekte/web/app/scripts/services/user.js",
+		"/E/Programmier Projekte/web/app/scripts/controllers/about.js",
+		"/E/Programmier Projekte/web/app/scripts/controllers/navbar.js",
+		"/E/Programmier Projekte/web/node_modules/mongoose/lib/index.js",
+		"/E/Programmier Projekte/web/lib/controllers/abouts.js",
+		"/E/Programmier Projekte/web/app/views/partials/about.html",
+		"/E/Programmier Projekte/web/lib/models/about.js",
+		"/E/Programmier Projekte/web/lib/models/thing.js",
+		"/E/Programmier Projekte/web/server.js",
+		"/E/Programmier Projekte/web/lib/config/dummydata.js",
+		"/E/Programmier Projekte/web/app/views/index.html",
+		"/E/Programmier Projekte/web/app/scripts/controllers/main.js",
+		"/E/Programmier Projekte/web/lib/models/user.js",
+		"/E/Programmier Projekte/web/test/server/about/model.js",
+		"/E/Programmier Projekte/web/lib/routes.js",
+		"/E/Programmier Projekte/web/bower.json",
+		"/E/Programmier Projekte/web/package.json",
+		"/E/Programmier Projekte/web/test/server/thing/about.js",
+		"/E/Programmier Projekte/web/test/server/about/about.js",
+		"/E/Programmier Projekte/web/node_modules/grunt/lib/grunt/file.js",
+		"/E/Programmier Projekte/web/test/server/user/about.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/ScopeChainSidebarPane.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/array/contains.js",
+		"/E/Programmier Projekte/web/app/styles/main.scss",
+		"/E/Programmier Projekte/web/.tmp/styles/main.css",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/E/Programmier Projekte/web/lib/middleware.js",
+		"/E/Programmier Projekte/web/node_modules/mongoose/node_modules/mpromise/index.js",
+		"/E/Programmier Projekte/web/node_modules/mongoose/index.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-karma/node_modules/optimist/index.js",
+		"/E/Programmier Projekte/web/lib/controllers/index.js",
+		"/E/Programmier Projekte/web/node_modules/connect-livereload/index.js",
+		"/E/Programmier Projekte/web/node_modules/connect-mongo/index.js",
+		"/E/Programmier Projekte/web/node_modules/ejs/index.js",
+		"/E/Programmier Projekte/web/node_modules/express/index.js",
+		"/E/Programmier Projekte/web/node_modules/jshint-stylish/index.js",
+		"/E/Programmier Projekte/web/node_modules/karma-chrome-launcher/index.js",
+		"/E/Programmier Projekte/web/test/client/spec/controllers/about.js",
+		"/E/Programmier Projekte/web/app/bower_components/jquery/src/outro.js",
+		"/E/Programmier Projekte/web/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_utilities.scss",
+		"/E/Programmier Projekte/web/node_modules/grunt-autoprefixer/node_modules/autoprefixer/lib/autoprefixer/hacks/border-image.js",
+		"/E/Programmier Projekte/web/.gitignore",
+		"/E/Programmier Projekte/web/app/views/partials/main.html",
+		"/E/Programmier Projekte/web/lib/models/about",
+		"/C/Users/jonas/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/Programmier Projekte/web/karma.conf.js",
+		"/E/Programmier Projekte/web/app/views/partials/navbar.html",
+		"/E/Programmier Projekte/web/app/scripts/controllers/login.js",
+		"/E/Programmier Projekte/web/lib/controllers/users.js",
+		"/C/Users/jonas/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Programmier Projekte/web/app/bower_components/angular-scenario/jstd-scenario-adapter.js",
+		"/E/Programmier Projekte/web/.jshintrc",
+		"/E/Programmier Projekte/web/node_modules/connect-mongo/node_modules/mongodb/t.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/mout/function/timeout.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/mout/function/timeout.js",
+		"/E/Programmier Projekte/web/app/bower_components/jquery/src/effects.js",
+		"/E/Programmier Projekte/web/app/bower_components/jquery/src/var/toString.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-cssmin/test/fixtures/input_two.css",
+		"/E/Programmier Projekte/web/app/bower_components/jquery/src/css/addGetHookIf.js",
+		"/E/Programmier Projekte/web/Gruntfile.js",
+		"/C/Users/jonas/AppData/Roaming/Sublime Text 3/Packages/sublime-text-refactor/Refactor.sublime-settings",
+		"/C/Users/jonas/AppData/Roaming/Sublime Text 3/Packages/User/Refactor.sublime-settings",
+		"/C/Users/jonas/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Programmier Projekte/web/app/bower_components/angular-sanitize/angular-sanitize.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-jshint/node_modules/jshint/data/ascii-identifier-data.js",
+		"/E/Programmier Projekte/web/app/bower_components/jquery/src/traversing/findFilter.js",
+		"/E/Programmier Projekte/web/.travis.yml",
+		"/E/Programmier Projekte/web/app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_navbar.scss",
+		"/E/Programmier Projekte/web/app/scripts/app.js",
+		"/E/Programmier Projekte/web/lib/config/express.js",
+		"/E/Programmier Projekte/web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/bin/builder.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/test/test-build.js",
+		"/E/Programmier Projekte/web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/build.sh",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-jshint/node_modules/jshint/bin/build",
+		"/E/Programmier Projekte/web/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/ws/lib/BufferUtil.js",
+		"/E/Programmier Projekte/web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/unicodecategories.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-jshint/node_modules/jshint/data/non-ascii-identifier-start.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-clean/CHANGELOG",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/E/Programmier Projekte/web/node_modules/express/lib/router/route.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/RemoteObject.js",
+		"/E/Programmier Projekte/web/app/robots.txt",
+		"/E/Programmier Projekte/web/app/bower_components/angular-scenario/bower.json",
+		"/E/Programmier Projekte/web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BarrettReduction.as",
+		"/E/Programmier Projekte/web/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/navigatorView.css",
+		"/E/Programmier Projekte/web/node_modules/karma-coffee-preprocessor/index.js.orig",
+		"/E/Programmier Projekte/web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/install.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/lang/isNull.js",
+		"/E/Programmier Projekte/web/node_modules/express/Makefile",
+		"/E/Programmier Projekte/web/node_modules/express/package.json",
+		"/E/Programmier Projekte/web/node_modules/express/Readme.md",
+		"/E/Programmier Projekte/web/node_modules/karma/node_modules/socket.io/node_modules/redis/examples/backpressure_drain.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-express-server/test/server.coffee",
+		"/E/Programmier Projekte/web/node_modules/grunt-express-server/test/server.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-express-server/test/server-quiet.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-express-server/test/stoppable_test.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/examples/progress.js",
+		"/E/Programmier Projekte/web/node_modules/express/benchmarks/Makefile",
+		"/E/Programmier Projekte/web/node_modules/express/benchmarks/middleware.js",
+		"/E/Programmier Projekte/web/node_modules/express/benchmarks/run",
+		"/E/Programmier Projekte/web/node_modules/express/lib/application.js",
+		"/E/Programmier Projekte/web/node_modules/express/lib/middleware.js",
+		"/E/Programmier Projekte/web/node_modules/express/lib/request.js",
+		"/E/Programmier Projekte/web/node_modules/express/lib/response.js",
+		"/E/Programmier Projekte/web/node_modules/express/LICENSE",
+		"/E/Programmier Projekte/web/node_modules/express/History.md",
+		"/E/Programmier Projekte/web/node_modules/express/.travis.yml",
+		"/E/Programmier Projekte/web/node_modules/express/.npmignore",
+		"/E/Programmier Projekte/web/node_modules/express/node_modules/connect/lib/middleware/compress.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_except.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_beautify.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_banner.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_sourcemap",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/WatchExpressionsSidebarPane.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-contrib-cssmin/node_modules/clean-css/lib/text/expressions.js",
+		"/E/Programmier Projekte/web/node_modules/grunt-express-server/tasks/express.js",
+		"/E/Programmier Projekte/web/node_modules/express/lib/express.js",
+		"/E/Programmier Projekte/web/node_modules/express/bin/express",
+		"/E/Programmier Projekte/web/node_modules/.bin/express.cmd",
+		"/E/Programmier Projekte/web/node_modules/.bin/express",
+		"/E/Programmier Projekte/web/node_modules/passport-local/node_modules/pkginfo/examples/all-properties.js",
+		"/E/Programmier Projekte/web/node_modules/.bin/autoprefixer",
+		"/E/Programmier Projekte/web/node_modules/grunt-google-cdn/node_modules/bower/test/assets/package-repo/git_repo/config",
+		"/E/Programmier Projekte/web/node_modules/grunt-google-cdn/node_modules/bower/test/assets/package-empty-rc/foocomponent.json",
+		"/E/Programmier Projekte/web/node_modules/grunt-google-cdn/node_modules/bower/test/assets/package-ignorables/config/.jshintrc",
+		"/E/Programmier Projekte/web/node_modules/mongoose/node_modules/mpromise/test/promises.Aplus.js"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"models",
+			"models/user",
+			"user/model",
+			"user/model.js",
+			"user",
+			"readdirSync",
+			"test",
+			"server/user",
+			"dummydata",
+			"api",
+			"Thing",
+			"user.js",
+			"User",
+			"users",
+			"module.exports = mongoose.model",
+			"Thing",
+			"ThingSchema",
+			"package",
+			"email",
+			"users",
+			"user",
+			"User",
+			"underscore.string",
+			"stringUtiles",
+			"num",
+			"userId",
+			"awesomeThings",
+			"\n ",
+			" \n",
+			"User",
+			"user",
+			"newAbout",
+			"User",
+			"newUser",
+			"User",
+			"user",
+			"User",
+			"Thing",
+			"AboutSchmea",
+			"ThingSchema",
+			"user",
+			"User",
+			"user",
+			"User",
+			"user",
+			"User",
+			"h4",
+			"}}</",
+			"thing",
+			"Thing",
+			"thing",
+			"route",
+			"title",
+			"link",
+			"title",
+			"about",
+			"title",
+			"navBarCtrl",
+			"navBar",
+			"NavbarCtrl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "server.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dummydat",
+				"lib\\config\\dummydata.js"
+			],
+			[
+				"main.js",
+				"app\\scripts\\controllers\\main.js"
+			],
+			[
+				"mongoose/index.js",
+				"node_modules\\mongoose\\lib\\index.js"
+			],
+			[
+				"about",
+				"app\\views\\partials\\about.html"
+			],
+			[
+				"about.js",
+				"lib\\controllers\\abouts.js"
+			],
+			[
+				"about.j",
+				"app\\scripts\\controllers\\about.js"
+			],
+			[
+				"index.",
+				"app\\views\\index.html"
+			],
+			[
+				"navbar",
+				"app\\views\\partials\\navbar.html"
+			],
+			[
+				"build.js",
+				"node_modules\\karma\\node_modules\\socket.io\\node_modules\\socket.io-client\\bin\\builder.js"
+			],
+			[
+				"routes",
+				"lib\\routes.js"
+			],
+			[
+				"rout",
+				"lib\\routes.js"
+			],
+			[
+				"index",
+				"app\\views\\index.html"
+			],
+			[
+				"app.js",
+				"app\\scripts\\app.js"
+			],
+			[
+				"dummy",
+				"lib\\config\\dummydata.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 1328.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
