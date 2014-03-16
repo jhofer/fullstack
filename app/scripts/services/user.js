@@ -3,7 +3,7 @@
 angular.module('testprojektApp')
   .factory('User', function ($resource) {
     return $resource('/api/users/:id', {
-      id: '@id'
+      id: '@id'  //paramter
     }, { //parameters default
       update: {
         method: 'PUT',
